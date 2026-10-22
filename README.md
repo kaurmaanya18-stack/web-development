@@ -1,4 +1,4 @@
-# Semester 1 - Web Development
+# Web Development
 
 This repository contains my Semester 1 web development practice, assignments, and projects.
 
@@ -8,8 +8,6 @@ This repository contains my Semester 1 web development practice, assignments, an
 - JavaScript
 
 ## Purpose
-To learn the basics of web development and practice building simple web pages.
+Learning the basics of web development through practice and hands-on projects.
 
-## Progress
-This repository will be updated as I learn new concepts and complete assignments.
 
