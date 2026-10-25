@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Maanya Kaur">
+        <title>Readers Haven Book Registration & Order Form</title>
+        </head>
+        <body bgcolor="lightblue">
+            <h1><font color="brown"><b><em>Readers’ Haven – Book Registration & Order Form</em></b></font></h1>
+            <form>
+                <label for="name">Customer Name</lable>
+                <br>
+                <input id="name" type="text" name="name" placeholder="Maanya">
+                <br><br>
+                <label for="em_id">Email Address</label>
+                <br>
+                <input id="em_id" name="em_id" placeholder="maanya@example.com" type="email">
+                <br><br>
+                <label for="mb_no">Mobile Number</label>
+                <br>
+                <input id="mb_no" type="tel" name="mbno" placeholder="0123456789">
+                <br><br>
+                <label for="age">Age</label>
+                <br>
+                <input id="age" name="age" type="number" placeholder="18"> 
+                <br><br>
+                <label for="pswd">Password</label>
+                <br>
+                <input id="pswd" type="password" name="pswd" placeholder="1@#wjxcenk">
+                <br><br>
+                <label for="adrs">Delivery Address</label>
+                <br>
+                <input id="adrs" name="adrs" type="text" placeholder="House no X lane Y city Z contry B pincode XYZAB">
+                <br><br>
+                <label for="genre">Book Category</label>
+                <br>
+                <select id="genre" name="text">
+                    <option value="Fiction">Fiction</option>
+                    <br>
+                    <option value="Science">Science</option>
+                    <br>
+                    <option value="History">History</option>
+                    <br>
+                    <option value="Children’s Books">Children’s Books</option>
+                    <br>
+                    <option value="other">other</option>
+                </select>
+                <br><br>
+                <label for="b_nm">Book Title</label>
+                    <br>
+                <textarea id="b_nm" name="b_nm"></textarea>
+                <br><br>
+                <label for="q">Quantity</label>
+                <br>
+                <input id="q" type="number" name="q"> 
+                <br><br>
+                <p>Preferred Payment Method</p>         
+                <input value="cod" name="pm" type="radio">
+                <label>Cash on Delivery</label>
+                <br>
+                <input value="o_pay"  name="pm" type="radio">
+                <label>Online Payment</label>
+                <br><br>
+                <label for="add_ser">Additional Services</label>
+                <select>
+                    <option value="gw">Gift Wrapping</option>
+                    <br>
+                    <option value="bmk">Bookmark</option>
+                    <br>
+                    <option value="ed">Express Delivery</option>
+                    <br>
+                    <option value="gc">Greeting Card</option>
+                </select>
+                <br><br>
+                <input type="hidden" id="rh" value="Readers Haven Book Order" name="hidden">
+                <br><br>
+                <label for="file">Upload passport size picture</label>
+                <br>
+                <input type="file" id="file"> 
+                <br><br>           
+            <button type="submit" value="Submit">Submit</button>
+            <br><br>
+            <button type="reset" value="Reset">Reset</button>
+            </form>
+
+        </body>
+</html>
