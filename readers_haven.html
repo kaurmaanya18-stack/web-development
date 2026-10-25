@@ -7,7 +7,7 @@
         </head>
         <body bgcolor="lightblue">
             <h1><font color="brown"><b><em>Readers’ Haven – Book Registration & Order Form</em></b></font></h1>
-            <form>
+            <form target=_blank>
                 <label for="name">Customer Name</label>
                 <br>
                 <input id="name" type="text" name="name" placeholder="Maanya">
@@ -34,7 +34,7 @@
                 <br><br>
                 <label for="genre">Book Category</label>
                 <br>
-                <select id="genre" name="text">
+                <select id="genre" name="genre">
                     <option value="Fiction">Fiction</option>
                     <br>
                     <option value="Science">Science</option>
@@ -52,7 +52,7 @@
                 <br><br>
                 <label for="q">Quantity</label>
                 <br>
-                <input id="q" type="number" name="q"> 
+                <input id="q" type="number" name="q" min="1"> 
                 <br><br>
                 <p>Preferred Payment Method</p>         
                 <input value="cod" name="pm" type="radio">
